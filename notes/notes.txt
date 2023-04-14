@@ -1,0 +1,18 @@
+app.py (main.py)
+
+front end folder
+logic folder (connect front end to back end)
+data folder
+
+inside the logic folder you can have different files for the features/things that you need
+
+python is a bit weird about the directories it looks for a module in. We will have to be smarter about how we layer modules and create functions. 
+"That path is not present in the list". Python always checks the directory that your file that you're running is in. We need to include the directory. 
+
+The best way to do this is to add the path as an environment variable. https://www.youtube.com/watch?v=HNChkuE6HyA
+
+export PYTHONPATH=/Users/jacksonmiskill/Projects/norfolk-gui:${PYTHONPATH}  <- dis da code
+
+Bascially, for a computer to be able to access all of the modules that you want, the sys.path needs to contain the environment variable that is the Project directory.
+
+We will need to include executables in order to run the package properly. 

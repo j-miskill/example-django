@@ -1,8 +1,10 @@
 # This is the file I will be using to handle requests to the API server for data.
 
+from os import link
 import pandas as pd
 from sodapy import Socrata
 import requests
+import json
 
 
 # These are ways I have discovered to access the data better
@@ -14,7 +16,12 @@ import requests
 
 
 class request_handler:
-    link_to_api = "https://data.norfolk.gov/resource/jz6u-9g3c.json"
+
+    LINK_TO_API = "https://data.norfolk.gov/resource/jz6u-9g3c.json"
 
     def __init__(self):
         print("Initialized, my friend")
+
+    def get_data(self):
+        data = requests.post(self.LINK_TO_API)
+        return data.text

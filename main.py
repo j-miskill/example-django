@@ -5,4 +5,6 @@ import os
 if __name__ == "__main__":
     print(os.getcwd())
     rc = request_handler()
-    print(rc.link_to_api)
+    print(rc.LINK_TO_API)
+    data = rc.get_data()
+    print(data)
