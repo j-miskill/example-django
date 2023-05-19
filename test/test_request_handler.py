@@ -2,7 +2,7 @@
 
 
 import pytest
-from logic.request_handler import *
+from logic.request_handler import request_handler
 
 
 def test_assert_works():
