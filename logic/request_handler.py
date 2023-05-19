@@ -1,4 +1,4 @@
-# This is the file I will be using to handle requests to the API server for data.
+# Handle requests to the API server for data.
 
 from os import link
 import pandas as pd
