@@ -34,3 +34,16 @@ You need these in order to build the project.
 I used the Makefile in order to execute the build for the setup. The setup is something that was created
 by the maintainers of Python (it's not some other module). I think they started to create it once
 people started to use Python a lot more. 
+
+
+
+6/16/2023
+
+tkinter is what I'll use as the GUI!
+
+to install into VENV:
+
+pip install tk
+
+
+
