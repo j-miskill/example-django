@@ -20,7 +20,7 @@ class request_handler:
     LINK_TO_API = "https://data.norfolk.gov/resource/jz6u-9g3c.json"
 
     def __init__(self):
-        print("Initialized, my friend")
+        print("Initialized")
 
     def get_data(self):
         data = requests.post(self.LINK_TO_API)

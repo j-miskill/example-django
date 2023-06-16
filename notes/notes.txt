@@ -16,3 +16,21 @@ export PYTHONPATH=/Users/jacksonmiskill/Projects/norfolk-gui:${PYTHONPATH}  <- d
 Bascially, for a computer to be able to access all of the modules that you want, the sys.path needs to contain the environment variable that is the Project directory.
 
 We will need to include executables in order to run the package properly. 
+
+
+5/19/2023
+
+You need to have a setup.py file in order to allow for the module you write to be accessible in other modules.
+The websites for this are below: 
+https://docs.python-guide.org/writing/structure/
+https://github.com/navdeep-G/samplemod/blob/master/sample/core.py
+https://kennethreitz.org/essays/2013/01/27/repository-structure-and-python
+
+For the architecture of projects, you need the following: the module you're writing, a license, 
+the requirements.txt file, the setup.py file, Makefile, documentation and test suite. 
+
+You need these in order to build the project. 
+
+I used the Makefile in order to execute the build for the setup. The setup is something that was created
+by the maintainers of Python (it's not some other module). I think they started to create it once
+people started to use Python a lot more. 
