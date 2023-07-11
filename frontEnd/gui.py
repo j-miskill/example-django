@@ -5,6 +5,7 @@ https://docs.python.org/2/library/tkinter.html
 import tkinter
 from tkinter import *
 
+
 class Application(Frame):
     def say_hi(self):
         print("Hi there, everybody!")
@@ -29,8 +30,8 @@ class Application(Frame):
         self.pack()
         self.createWidgets()
 
+
 root = Tk()
 app = Application(master=root)
 app.mainloop()
 root.destroy()
-

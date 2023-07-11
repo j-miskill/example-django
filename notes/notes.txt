@@ -39,7 +39,7 @@ people started to use Python a lot more.
 
 6/16/2023
 
-tkinter is what I'll use as the GUI!
+tkinter is what I'll use as the GUI
 
 to install into VENV:
 
