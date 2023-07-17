@@ -2,6 +2,18 @@
 
 Python GUI with Norfolk information for the public good.
 
+# How to run
+
+Use the Makefile. Simply run 
+
+`make`
+
+and the `setup.py` will execute such that it will load the dependencies required. For this case, it will load in `frontend` and `logic`.
+
+`make run` will run the program such that it works properly. 
+
+It will not work by trying to do relative imports and stuff like that. Just using the VERY SIMPLE `setup.py` does the trick. It creates a build folder which houses all the necessary dependencies. 
+
 # Task
 
 I will be attempting to commit something to GitHub for this project every day. One of my problems is that I

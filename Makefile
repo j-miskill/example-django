@@ -1,7 +1,8 @@
 make:
-	python3 setup.py build
-	python3 setup.py install
+	python setup.py build
+	python setup.py install
+	python run.py
 	
 make tests:
 	#sleep 1
-	python3 test/test_request_handler.py
+	python test/test_request_handler.py
