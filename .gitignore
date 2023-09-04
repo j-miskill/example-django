@@ -3,3 +3,8 @@ PENV/
 
 # build
 build/
+
+# test
+.pytest_cache/
+test/pytest_cache
+trees/pytest_cache

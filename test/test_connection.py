@@ -1,10 +1,11 @@
 import pytest
-from ... import trees
+from trees.connection import Connection
 class TestConnection:
 
     # Test the request function
 
     def testRequest(self):
-        connection = connection(token = "OT1Gvi1Lw0Cu0eOkWdfIAaMZK")
-        assert connection is not None
+        c = Connection(token = "OT1Gvi1Lw0Cu0eOkWdfIAaMZK")
+        print(c)
+        assert c is not None
 

@@ -8,5 +8,5 @@ setup(
     description = "Significant Trees in Norfolk GUI",
     author = "Jackson Miskill", 
     author_email= "jcmiskill@gmail.com",
-    packages = ['trees', 'test']
+    packages = ['trees'],
     )
