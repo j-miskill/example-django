@@ -26,6 +26,7 @@ class PostListView(ListView):
     template_name = "trees/home.html"
     context_object_name = 'post'
     ordering = ["-date_posted"]
+    paginate_by = 2
 
 class PostDetailView(DetailView):
     model = Post
